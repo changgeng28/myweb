@@ -124,6 +124,7 @@ C:.
 │  │      │  pom.xml
 │  │      │
 │  │      ├─.settings
+│  │      │      org.eclipse.core.resources.prefs
 │  │      │      org.eclipse.m2e.core.prefs
 │  │      │
 │  │      ├─src
@@ -384,76 +385,109 @@ C:.
 │  │          └─test-classes
 │  └─jobs
 │      └─process
-│          └─myfirstjob_0.1
+│          ├─myfirstjob_0.1
+│          │  │  pom.xml
+│          │  │
+│          │  ├─.settings
+│          │  │      org.eclipse.core.resources.prefs
+│          │  │      org.eclipse.jdt.core.prefs
+│          │  │      org.eclipse.m2e.core.prefs
+│          │  │
+│          │  ├─src
+│          │  │  ├─main
+│          │  │  │  ├─assemblies
+│          │  │  │  │      assembly.xml
+│          │  │  │  │
+│          │  │  │  ├─ext-resources
+│          │  │  │  │  │  log4j2.xml
+│          │  │  │  │  │
+│          │  │  │  │  ├─rules
+│          │  │  │  │  ├─sangbox
+│          │  │  │  │  │  └─myfirstjob_0_1
+│          │  │  │  │  │      └─contexts
+│          │  │  │  │  │              Default.properties
+│          │  │  │  │  │
+│          │  │  │  │  └─sqltemplates
+│          │  │  │  ├─items
+│          │  │  │  ├─java
+│          │  │  │  │  ├─internal
+│          │  │  │  │  └─sangbox
+│          │  │  │  │      └─myfirstjob_0_1
+│          │  │  │  │              myfirstJob.java
+│          │  │  │  │
+│          │  │  │  ├─resources
+│          │  │  │  │  └─sangbox
+│          │  │  │  │      └─myfirstjob_0_1
+│          │  │  │  │          └─contexts
+│          │  │  │  │                  Default.properties
+│          │  │  │  │
+│          │  │  │  └─templates
+│          │  │  │          jobInfo_template.properties
+│          │  │  │          Job_run_template.bat
+│          │  │  │          Job_run_template.ps1
+│          │  │  │          Job_run_template.sh
+│          │  │  │
+│          │  │  └─test
+│          │  │      ├─java
+│          │  │      └─resources
+│          │  ├─target
+│          │  │  │  classpath.jar
+│          │  │  │
+│          │  │  ├─classes
+│          │  │  │  ├─internal
+│          │  │  │  └─sangbox
+│          │  │  │      └─myfirstjob_0_1
+│          │  │  │          │  myfirstJob$1.class
+│          │  │  │          │  myfirstJob$1ContextProcessing.class
+│          │  │  │          │  myfirstJob$ContextProperties.class
+│          │  │  │          │  myfirstJob$PropertiesWithType.class
+│          │  │  │          │  myfirstJob$TalendException.class
+│          │  │  │          │  myfirstJob.class
+│          │  │  │          │
+│          │  │  │          └─contexts
+│          │  │  │                  Default.properties
+│          │  │  │
+│          │  │  └─test-classes
+│          │  └─tests
+│          └─sndpro_0.1
 │              │  .classpath
 │              │  .project
 │              │  pom.xml
 │              │
 │              ├─.settings
 │              │      org.eclipse.core.resources.prefs
-│              │      org.eclipse.jdt.core.prefs
 │              │      org.eclipse.m2e.core.prefs
 │              │
 │              ├─src
 │              │  ├─main
-│              │  │  ├─assemblies
-│              │  │  │      assembly.xml
-│              │  │  │
 │              │  │  ├─ext-resources
-│              │  │  │  │  log4j2.xml
-│              │  │  │  │
 │              │  │  │  ├─rules
 │              │  │  │  ├─sangbox
-│              │  │  │  │  └─myfirstjob_0_1
+│              │  │  │  │  └─sndpro_0_1
 │              │  │  │  │      └─contexts
-│              │  │  │  │              Default.properties
-│              │  │  │  │
 │              │  │  │  └─sqltemplates
 │              │  │  ├─items
 │              │  │  ├─java
 │              │  │  │  ├─internal
 │              │  │  │  └─sangbox
-│              │  │  │      └─myfirstjob_0_1
-│              │  │  │              myfirstJob.java
+│              │  │  │      └─sndpro_0_1
+│              │  │  │              sndpro.java
 │              │  │  │
-│              │  │  ├─resources
-│              │  │  │  └─sangbox
-│              │  │  │      └─myfirstjob_0_1
-│              │  │  │          └─contexts
-│              │  │  │                  Default.properties
-│              │  │  │
-│              │  │  └─templates
-│              │  │          jobInfo_template.properties
-│              │  │          Job_run_template.bat
-│              │  │          Job_run_template.ps1
-│              │  │          Job_run_template.sh
-│              │  │
+│              │  │  └─resources
 │              │  └─test
 │              │      ├─java
 │              │      └─resources
 │              ├─target
-│              │  │  classpath.jar
-│              │  │
 │              │  ├─classes
-│              │  │  ├─internal
-│              │  │  └─sangbox
-│              │  │      └─myfirstjob_0_1
-│              │  │          │  myfirstJob$1.class
-│              │  │          │  myfirstJob$1ContextProcessing.class
-│              │  │          │  myfirstJob$ContextProperties.class
-│              │  │          │  myfirstJob$PropertiesWithType.class
-│              │  │          │  myfirstJob$TalendException.class
-│              │  │          │  myfirstJob.class
-│              │  │          │
-│              │  │          └─contexts
-│              │  │                  Default.properties
-│              │  │
 │              │  └─test-classes
 │              └─tests
 ├─process
 │      myfirstJob_0.1.item
 │      myfirstJob_0.1.properties
 │      myfirstJob_0.1.screenshot
+│      sndpro_0.1.item
+│      sndpro_0.1.properties
+│      sndpro_0.1.screenshot
 │
 ├─sqlPatterns
 │  ├─Generic
@@ -615,10 +649,3 @@ C:.
 │      │
 │      └─UserDefined
 └─temp
-    └─lib
-            crypto-utils.jar
-            dom4j-2.1.1.jar
-            log4j-api-2.12.1.jar
-            log4j-core-2.12.1.jar
-            log4j-slf4j-impl-2.12.1.jar
-            slf4j-api-1.7.25.jar
