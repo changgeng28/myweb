@@ -1,0 +1,547 @@
+C:\talend\TOS_DI-Win32-20200219_1130-V7.3.1\workspace\SANGBOX>tree /F
+フォルダー パスの一覧:  ボリューム 系统
+ボリューム シリアル番号は 0000-6B3E です
+C:.
+│  .project
+│  talend.project
+│
+├─.settings
+│  │  migration_task.index
+│  │  org.eclipse.core.resources.prefs
+│  │  org.talend.designer.maven.prefs
+│  │  org.talend.log4j.prefs
+│  │  project.settings
+│  │  relationship.index
+│  │
+│  └─mappings
+│          mapping_Access.xml
+│          mapping_AmazonAurora.xml
+│          mapping_AS400.xml
+│          mapping_BigQuery.xml
+│          mapping_Cassandra.xml
+│          mapping_Cassandra22_datastax.xml
+│          mapping_Cassandra_datastax.xml
+│          mapping_dynamodb.xml
+│          mapping_ebcdic.xml
+│          mapping_Exasol.xml
+│          mapping_Firebird.xml
+│          mapping_Greenplum.xml
+│          mapping_H2.xml
+│          mapping_Hive.xml
+│          mapping_HSQLDB.xml
+│          mapping_IBMDB2.xml
+│          mapping_Impala.xml
+│          mapping_Informix.xml
+│          mapping_Ingres.xml
+│          mapping_Interbase.xml
+│          mapping_JavaDB.xml
+│          mapping_MaxDB.xml
+│          mapping_MicrosoftCrm.xml
+│          mapping_MicrosoftCrm_odata.xml
+│          mapping_MsOdbc.xml
+│          mapping_MSSQL.xml
+│          mapping_Mysql.xml
+│          mapping_Netezza.xml
+│          mapping_Oracle.xml
+│          mapping_ParAccel.xml
+│          mapping_Postgres.xml
+│          mapping_PostgresPlus.xml
+│          mapping_Redshift.xml
+│          mapping_sap.xml
+│          mapping_SAPHana.xml
+│          mapping_sas.xml
+│          mapping_Snowflake.xml
+│          mapping_SQLite.xml
+│          mapping_Sybase.xml
+│          mapping_Teradata.xml
+│          mapping_validate.xsd
+│          mapping_VectorWise.xml
+│          mapping_Vertica.xml
+│          mapping_XSD.xml
+│
+├─businessProcess
+├─businessProcessSVG
+├─code
+│  ├─routines
+│  │  └─system
+│  │          DataOperation_0.1.item
+│  │          DataOperation_0.1.properties
+│  │          Mathematical_0.1.item
+│  │          Mathematical_0.1.properties
+│  │          Numeric_0.1.item
+│  │          Numeric_0.1.properties
+│  │          Relational_0.1.item
+│  │          Relational_0.1.properties
+│  │          StringHandling_0.1.item
+│  │          StringHandling_0.1.properties
+│  │          TalendDataGenerator_0.1.item
+│  │          TalendDataGenerator_0.1.properties
+│  │          TalendDate_0.1.item
+│  │          TalendDate_0.1.properties
+│  │          TalendStringUtil_0.1.item
+│  │          TalendStringUtil_0.1.properties
+│  │          TalendString_0.1.item
+│  │          TalendString_0.1.properties
+│  │
+│  └─snippets
+├─components
+├─context
+├─documentations
+├─images
+│  ├─joblet_outlines
+│  └─job_outlines
+├─metadata
+│  ├─azurestorage
+│  ├─BRMSconnections
+│  ├─connections
+│  ├─fileDelimited
+│  ├─fileExcel
+│  ├─fileLdif
+│  ├─filePositional
+│  ├─fileRegex
+│  ├─fileXml
+│  ├─FTPconnections
+│  ├─genericSchema
+│  ├─GoogleDrive
+│  ├─JDBC
+│  ├─json
+│  ├─LDAPSchema
+│  ├─marketo
+│  ├─MDMconnections
+│  ├─rules
+│  ├─salesforce
+│  ├─SalesforceSchema
+│  ├─snowflake
+│  ├─tacokit
+│  └─WSDLSchema
+├─poms
+│  │  pom.xml
+│  │
+│  ├─code
+│  │  └─routines
+│  │      │  .classpath
+│  │      │  .project
+│  │      │  pom.xml
+│  │      │
+│  │      ├─.settings
+│  │      │      org.eclipse.m2e.core.prefs
+│  │      │
+│  │      ├─src
+│  │      │  ├─main
+│  │      │  │  ├─java
+│  │      │  │  │  └─routines
+│  │      │  │  │      │  DataOperation.java
+│  │      │  │  │      │  Mathematical.java
+│  │      │  │  │      │  Numeric.java
+│  │      │  │  │      │  Relational.java
+│  │      │  │  │      │  StringHandling.java
+│  │      │  │  │      │  TalendDataGenerator.java
+│  │      │  │  │      │  TalendDate.java
+│  │      │  │  │      │  TalendString.java
+│  │      │  │  │      │  TalendStringUtil.java
+│  │      │  │  │      │
+│  │      │  │  │      └─system
+│  │      │  │  │          │  AssertCatcherUtils.java
+│  │      │  │  │          │  BufferedOutput.java
+│  │      │  │  │          │  BundleUtils.java
+│  │      │  │  │          │  Constant.java
+│  │      │  │  │          │  DBDateParser.java
+│  │      │  │  │          │  Document.java
+│  │      │  │  │          │  DocumentGenerateOrderHelper.java
+│  │      │  │  │          │  DocumentHelper.java
+│  │      │  │  │          │  DocumentLookupCache.java
+│  │      │  │  │          │  DocumentToFlat.java
+│  │      │  │  │          │  FastDateParser.java
+│  │      │  │  │          │  FormatterUtils.java
+│  │      │  │  │          │  GetJarsToRegister.java
+│  │      │  │  │          │  GlobalResource.java
+│  │      │  │  │          │  Hex.java
+│  │      │  │  │          │  IPersistableComparableLookupRow.java
+│  │      │  │  │          │  IPersistableLookupRow.java
+│  │      │  │  │          │  IPersistableRow.java
+│  │      │  │  │          │  JDBCUtil.java
+│  │      │  │  │          │  JobStructureCatcherUtils.java
+│  │      │  │  │          │  JSONArray.java
+│  │      │  │  │          │  JSONException.java
+│  │      │  │  │          │  JSONObject.java
+│  │      │  │  │          │  keys.properties
+│  │      │  │  │          │  LocaleProvider.java
+│  │      │  │  │          │  LogCatcherUtils.java
+│  │      │  │  │          │  MetterCatcherUtils.java
+│  │      │  │  │          │  MRRunStat.java
+│  │      │  │  │          │  NameSpaceTool.java
+│  │      │  │  │          │  NestXMLTool.java
+│  │      │  │  │          │  NoHeaderObjectInputStream.java
+│  │      │  │  │          │  NoHeaderObjectOutputStream.java
+│  │      │  │  │          │  ObjectUtil.java
+│  │      │  │  │          │  ParserUtils.java
+│  │      │  │  │          │  PasswordEncryptUtil.java
+│  │      │  │  │          │  PigHelper.java
+│  │      │  │  │          │  PrintfFormat.java
+│  │      │  │  │          │  RandomUtils.java
+│  │      │  │  │          │  ResumeUtil.java
+│  │      │  │  │          │  RowState.java
+│  │      │  │  │          │  RunStat.java
+│  │      │  │  │          │  RuntimeMap.java
+│  │      │  │  │          │  RuntimeUtils.java
+│  │      │  │  │          │  RunTrace.java
+│  │      │  │  │          │  SharedDBConnection.java
+│  │      │  │  │          │  SharedDBConnectionLog4j.java
+│  │      │  │  │          │  SharedDBPreparedStatement.java
+│  │      │  │  │          │  SparkRunStat.java
+│  │      │  │  │          │  SparkStreamingRunStat.java
+│  │      │  │  │          │  StatCatcherUtils.java
+│  │      │  │  │          │  StringUtils.java
+│  │      │  │  │          │  TalendDataSource.java
+│  │      │  │  │          │  TalendThread.java
+│  │      │  │  │          │  TalendThreadPool.java
+│  │      │  │  │          │  TalendThreadResult.java
+│  │      │  │  │          │  TalendTimestampWithTZ.java
+│  │      │  │  │          │  TDieException.java
+│  │      │  │  │          │  TraceBean.java
+│  │      │  │  │          │  TraceDataBean.java
+│  │      │  │  │          │  TraceStatusBean.java
+│  │      │  │  │          │  TRunJobException.java
+│  │      │  │  │          │  TypeConvert.java
+│  │      │  │  │          │  UnicodeReader.java
+│  │      │  │  │          │  XMLHelper.java
+│  │      │  │  │          │
+│  │      │  │  │          ├─api
+│  │      │  │  │          │      ESBConsumer.java
+│  │      │  │  │          │      ESBEndpointInfo.java
+│  │      │  │  │          │      ESBEndpointRegistry.java
+│  │      │  │  │          │      ESBJobInterruptedException.java
+│  │      │  │  │          │      ESBProviderCallback.java
+│  │      │  │  │          │      JobLifecycleSemaphore.java
+│  │      │  │  │          │      TalendESBJob.java
+│  │      │  │  │          │      TalendESBJobBean.java
+│  │      │  │  │          │      TalendESBJobFactory.java
+│  │      │  │  │          │      TalendESBRoute.java
+│  │      │  │  │          │      TalendJob.java
+│  │      │  │  │          │      TalendMDMJob.java
+│  │      │  │  │          │
+│  │      │  │  │          └─xml
+│  │      │  │  │              └─sax
+│  │      │  │  │                      NamespaceFilter.java
+│  │      │  │  │
+│  │      │  │  └─resources
+│  │      │  └─test
+│  │      │      ├─java
+│  │      │      └─resources
+│  │      └─target
+│  │          │  routines-7.3.1.jar
+│  │          │
+│  │          ├─classes
+│  │          │  └─routines
+│  │          │      │  DataOperation.class
+│  │          │      │  Mathematical.class
+│  │          │      │  Numeric.class
+│  │          │      │  Relational.class
+│  │          │      │  StringHandling.class
+│  │          │      │  TalendDataGenerator.class
+│  │          │      │  TalendDate$1.class
+│  │          │      │  TalendDate$2.class
+│  │          │      │  TalendDate$3.class
+│  │          │      │  TalendDate$4.class
+│  │          │      │  TalendDate$5.class
+│  │          │      │  TalendDate.class
+│  │          │      │  TalendString.class
+│  │          │      │  TalendStringUtil.class
+│  │          │      │
+│  │          │      └─system
+│  │          │          │  AssertCatcherUtils$AssertCatcherMessage.class
+│  │          │          │  AssertCatcherUtils.class
+│  │          │          │  BufferedOutput$1.class
+│  │          │          │  BufferedOutput.class
+│  │          │          │  BundleUtils.class
+│  │          │          │  Constant.class
+│  │          │          │  DBDateParser.class
+│  │          │          │  Document.class
+│  │          │          │  DocumentGenerateOrderHelper.class
+│  │          │          │  DocumentHelper.class
+│  │          │          │  DocumentLookupCache$AllMatchLookupCache.class
+│  │          │          │  DocumentLookupCache$FirstLookupCache.class
+│  │          │          │  DocumentLookupCache$LookupCache.class
+│  │          │          │  DocumentLookupCache$UniqueLookupCache.class
+│  │          │          │  DocumentLookupCache.class
+│  │          │          │  DocumentToFlat.class
+│  │          │          │  FastDateParser$1.class
+│  │          │          │  FastDateParser$2.class
+│  │          │          │  FastDateParser$DateFormatKey.class
+│  │          │          │  FastDateParser$DateParser.class
+│  │          │          │  FastDateParser$DateTimeParser.class
+│  │          │          │  FastDateParser.class
+│  │          │          │  FormatterUtils.class
+│  │          │          │  GetJarsToRegister.class
+│  │          │          │  GlobalResource$TalendMultiThreadLockMap.class
+│  │          │          │  GlobalResource.class
+│  │          │          │  Hex.class
+│  │          │          │  IPersistableComparableLookupRow.class
+│  │          │          │  IPersistableLookupRow.class
+│  │          │          │  IPersistableRow.class
+│  │          │          │  JDBCUtil.class
+│  │          │          │  JobStructureCatcherUtils$JobStructureCatcherMessage.class
+│  │          │          │  JobStructureCatcherUtils.class
+│  │          │          │  JSONArray.class
+│  │          │          │  JSONException.class
+│  │          │          │  JSONObject$Null.class
+│  │          │          │  JSONObject.class
+│  │          │          │  JSONString.class
+│  │          │          │  JSONTokener.class
+│  │          │          │  keys.properties
+│  │          │          │  LocaleProvider.class
+│  │          │          │  LogCatcherUtils$LogCatcherMessage.class
+│  │          │          │  LogCatcherUtils.class
+│  │          │          │  MetterCatcherUtils$MetterCatcherMessage.class
+│  │          │          │  MetterCatcherUtils.class
+│  │          │          │  MRRunStat$StatBean.class
+│  │          │          │  MRRunStat.class
+│  │          │          │  MysqlDateParser.class
+│  │          │          │  NameSpaceTool.class
+│  │          │          │  NestXMLTool.class
+│  │          │          │  NoHeaderObjectInputStream.class
+│  │          │          │  NoHeaderObjectOutputStream.class
+│  │          │          │  ObjectUtil.class
+│  │          │          │  ParserUtils$1.class
+│  │          │          │  ParserUtils.class
+│  │          │          │  PasswordEncryptUtil$InputStreamKeySources$1.class
+│  │          │          │  PasswordEncryptUtil$InputStreamKeySources.class
+│  │          │          │  PasswordEncryptUtil$JobKeySourceProvider$JobKeySourceProviderHolder.class
+│  │          │          │  PasswordEncryptUtil$JobKeySourceProvider.class
+│  │          │          │  PasswordEncryptUtil.class
+│  │          │          │  PigHelper.class
+│  │          │          │  PrintfFormat$ConversionSpecification.class
+│  │          │          │  PrintfFormat.class
+│  │          │          │  RandomUtils$RandomNumberGeneratorHolder.class
+│  │          │          │  RandomUtils.class
+│  │          │          │  ResumeUtil$JobLogItem.class
+│  │          │          │  ResumeUtil$LogPriority.class
+│  │          │          │  ResumeUtil$ResumeCommonInfo.class
+│  │          │          │  ResumeUtil$ResumeEventType.class
+│  │          │          │  ResumeUtil$SimpleCsvWriter.class
+│  │          │          │  ResumeUtil.class
+│  │          │          │  RowState.class
+│  │          │          │  RunStat$StatBean.class
+│  │          │          │  RunStat.class
+│  │          │          │  RuntimeMap.class
+│  │          │          │  RuntimeUtils.class
+│  │          │          │  RunTrace.class
+│  │          │          │  SharedDBConnection.class
+│  │          │          │  SharedDBConnectionLog4j.class
+│  │          │          │  SharedDBPreparedStatement.class
+│  │          │          │  SparkRunStat$StatBean.class
+│  │          │          │  SparkRunStat.class
+│  │          │          │  SparkStreamingRunStat$StatBean.class
+│  │          │          │  SparkStreamingRunStat.class
+│  │          │          │  StatCatcherUtils$StatCatcherMessage.class
+│  │          │          │  StatCatcherUtils.class
+│  │          │          │  StringUtils.class
+│  │          │          │  TalendDataSource.class
+│  │          │          │  TalendThread.class
+│  │          │          │  TalendThreadPool.class
+│  │          │          │  TalendThreadResult.class
+│  │          │          │  TalendTimestampWithTZ.class
+│  │          │          │  TDieException.class
+│  │          │          │  ThreadPoolWorker$1.class
+│  │          │          │  ThreadPoolWorker.class
+│  │          │          │  ThreadQueue.class
+│  │          │          │  TraceBean.class
+│  │          │          │  TraceDataBean.class
+│  │          │          │  TraceStatusBean.class
+│  │          │          │  TRunJobException.class
+│  │          │          │  TypeConvert$ConvertTypeIllegalArgumentException.class
+│  │          │          │  TypeConvert$ConvertTypeNotSupportException.class
+│  │          │          │  TypeConvert.class
+│  │          │          │  UnicodeReader.class
+│  │          │          │  XMLHelper.class
+│  │          │          │
+│  │          │          ├─api
+│  │          │          │      ESBConsumer.class
+│  │          │          │      ESBEndpointInfo.class
+│  │          │          │      ESBEndpointRegistry.class
+│  │          │          │      ESBJobInterruptedException.class
+│  │          │          │      ESBProviderCallback.class
+│  │          │          │      JobLifecycleSemaphore.class
+│  │          │          │      TalendESBJob.class
+│  │          │          │      TalendESBJobBean.class
+│  │          │          │      TalendESBJobFactory.class
+│  │          │          │      TalendESBRoute.class
+│  │          │          │      TalendJob.class
+│  │          │          │      TalendMDMJob.class
+│  │          │          │
+│  │          │          └─xml
+│  │          │              └─sax
+│  │          │                      NamespaceFilter$Context.class
+│  │          │                      NamespaceFilter$Matcher.class
+│  │          │                      NamespaceFilter.class
+│  │          │
+│  │          ├─maven-status
+│  │          │  └─maven-compiler-plugin
+│  │          │      └─testCompile
+│  │          │          └─default-testCompile
+│  │          │                  inputFiles.lst
+│  │          │
+│  │          └─test-classes
+│  └─jobs
+│      └─process
+├─process
+├─sqlPatterns
+│  ├─Generic
+│  │  ├─system
+│  │  │      Aggregate_0.1.item
+│  │  │      Aggregate_0.1.properties
+│  │  │      Commit_0.1.item
+│  │  │      Commit_0.1.properties
+│  │  │      DropSourceTable_0.1.item
+│  │  │      DropSourceTable_0.1.properties
+│  │  │      DropTargetTable_0.1.item
+│  │  │      DropTargetTable_0.1.properties
+│  │  │      FilterColumns_0.1.item
+│  │  │      FilterColumns_0.1.properties
+│  │  │      FilterRow_0.1.item
+│  │  │      FilterRow_0.1.properties
+│  │  │      MergeInsert_0.1.item
+│  │  │      MergeInsert_0.1.properties
+│  │  │      MergeUpdate_0.1.item
+│  │  │      MergeUpdate_0.1.properties
+│  │  │      Rollback_0.1.item
+│  │  │      Rollback_0.1.properties
+│  │  │
+│  │  └─UserDefined
+│  ├─Hive
+│  │  ├─system
+│  │  │      HiveAggregate_0.1.item
+│  │  │      HiveAggregate_0.1.properties
+│  │  │      HiveCreateSourceTable_0.1.item
+│  │  │      HiveCreateSourceTable_0.1.properties
+│  │  │      HiveCreateTargetTable_0.1.item
+│  │  │      HiveCreateTargetTable_0.1.properties
+│  │  │      HiveDropSourceTable_0.1.item
+│  │  │      HiveDropSourceTable_0.1.properties
+│  │  │      HiveDropTargetTable_0.1.item
+│  │  │      HiveDropTargetTable_0.1.properties
+│  │  │      HiveFilterColumns_0.1.item
+│  │  │      HiveFilterColumns_0.1.properties
+│  │  │      HiveFilterRow_0.1.item
+│  │  │      HiveFilterRow_0.1.properties
+│  │  │
+│  │  └─UserDefined
+│  ├─MySQL
+│  │  ├─system
+│  │  │      MySQLAggregate_0.1.item
+│  │  │      MySQLAggregate_0.1.properties
+│  │  │      MySQLCreateSourceTable_0.1.item
+│  │  │      MySQLCreateSourceTable_0.1.properties
+│  │  │      MySQLCreateTargetTable_0.1.item
+│  │  │      MySQLCreateTargetTable_0.1.properties
+│  │  │      MySQLDropSourceTable_0.1.item
+│  │  │      MySQLDropSourceTable_0.1.properties
+│  │  │      MySQLDropTargetTable_0.1.item
+│  │  │      MySQLDropTargetTable_0.1.properties
+│  │  │      MySQLFilterColumns_0.1.item
+│  │  │      MySQLFilterColumns_0.1.properties
+│  │  │      MySQLFilterRow_0.1.item
+│  │  │      MySQLFilterRow_0.1.properties
+│  │  │
+│  │  └─UserDefined
+│  ├─Netezza
+│  │  ├─system
+│  │  │      NetezzaAggregate_0.1.item
+│  │  │      NetezzaAggregate_0.1.properties
+│  │  │      NetezzaCreateSourceTable_0.1.item
+│  │  │      NetezzaCreateSourceTable_0.1.properties
+│  │  │      NetezzaCreateTargetTable_0.1.item
+│  │  │      NetezzaCreateTargetTable_0.1.properties
+│  │  │      NetezzaDropSourceTable_0.1.item
+│  │  │      NetezzaDropSourceTable_0.1.properties
+│  │  │      NetezzaDropTargetTable_0.1.item
+│  │  │      NetezzaDropTargetTable_0.1.properties
+│  │  │      NetezzaFilterColumns_0.1.item
+│  │  │      NetezzaFilterColumns_0.1.properties
+│  │  │      NetezzaFilterRow_0.1.item
+│  │  │      NetezzaFilterRow_0.1.properties
+│  │  │
+│  │  └─UserDefined
+│  ├─Oracle
+│  │  ├─system
+│  │  │      OracleAggregate_0.1.item
+│  │  │      OracleAggregate_0.1.properties
+│  │  │      OracleCreateSourceTable_0.1.item
+│  │  │      OracleCreateSourceTable_0.1.properties
+│  │  │      OracleCreateTargetTable_0.1.item
+│  │  │      OracleCreateTargetTable_0.1.properties
+│  │  │      OracleDropSourceTable_0.1.item
+│  │  │      OracleDropSourceTable_0.1.properties
+│  │  │      OracleDropTargetTable_0.1.item
+│  │  │      OracleDropTargetTable_0.1.properties
+│  │  │      OracleFilterColumns_0.1.item
+│  │  │      OracleFilterColumns_0.1.properties
+│  │  │      OracleFilterRow_0.1.item
+│  │  │      OracleFilterRow_0.1.properties
+│  │  │      OracleMerge_0.1.item
+│  │  │      OracleMerge_0.1.properties
+│  │  │
+│  │  └─UserDefined
+│  ├─ParAccel
+│  │  ├─system
+│  │  │      ParAccelAggregate_0.1.item
+│  │  │      ParAccelAggregate_0.1.properties
+│  │  │      ParAccelCommit_0.1.item
+│  │  │      ParAccelCommit_0.1.properties
+│  │  │      ParAccelDropSourceTable_0.1.item
+│  │  │      ParAccelDropSourceTable_0.1.properties
+│  │  │      ParAccelDropTargetTable_0.1.item
+│  │  │      ParAccelDropTargetTable_0.1.properties
+│  │  │      ParAccelFilterColumns_0.1.item
+│  │  │      ParAccelFilterColumns_0.1.properties
+│  │  │      ParAccelFilterRow_0.1.item
+│  │  │      ParAccelFilterRow_0.1.properties
+│  │  │      ParAccelRollback_0.1.item
+│  │  │      ParAccelRollback_0.1.properties
+│  │  │
+│  │  └─UserDefined
+│  ├─Snowflake
+│  │  ├─system
+│  │  │      SnowflakeCreateSourceTable_0.1.item
+│  │  │      SnowflakeCreateSourceTable_0.1.properties
+│  │  │      SnowflakeCreateTargetTable_0.1.item
+│  │  │      SnowflakeCreateTargetTable_0.1.properties
+│  │  │      SnowflakeDropSourceTable_0.1.item
+│  │  │      SnowflakeDropSourceTable_0.1.properties
+│  │  │      SnowflakeDropTargetTable_0.1.item
+│  │  │      SnowflakeDropTargetTable_0.1.properties
+│  │  │      SnowflakeMerge_0.1.item
+│  │  │      SnowflakeMerge_0.1.properties
+│  │  │
+│  │  └─UserDefined
+│  ├─Teradata
+│  │  ├─system
+│  │  │      TeradataAggregate_0.1.item
+│  │  │      TeradataAggregate_0.1.properties
+│  │  │      TeradataColumnList_0.1.item
+│  │  │      TeradataColumnList_0.1.properties
+│  │  │      TeradataCreateSourceTable_0.1.item
+│  │  │      TeradataCreateSourceTable_0.1.properties
+│  │  │      TeradataCreateTargetTable_0.1.item
+│  │  │      TeradataCreateTargetTable_0.1.properties
+│  │  │      TeradataDropSourceTable_0.1.item
+│  │  │      TeradataDropSourceTable_0.1.properties
+│  │  │      TeradataDropTargetTable_0.1.item
+│  │  │      TeradataDropTargetTable_0.1.properties
+│  │  │      TeradataFilterColumns_0.1.item
+│  │  │      TeradataFilterColumns_0.1.properties
+│  │  │      TeradataFilterRow_0.1.item
+│  │  │      TeradataFilterRow_0.1.properties
+│  │  │      TeradataTableList_0.1.item
+│  │  │      TeradataTableList_0.1.properties
+│  │  │
+│  │  └─UserDefined
+│  └─Vertica
+│      ├─system
+│      │      VerticaMergeInsert_0.1.item
+│      │      VerticaMergeInsert_0.1.properties
+│      │      VerticaMergeUpdate_0.1.item
+│      │      VerticaMergeUpdate_0.1.properties
+│      │
+│      └─UserDefined
+└─temp
