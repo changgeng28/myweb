@@ -384,7 +384,43 @@ C:.
 │  │          └─test-classes
 │  └─jobs
 │      └─process
+│          └─myfirstjob_0.1
+│              │  .classpath
+│              │  .project
+│              │  pom.xml
+│              │
+│              ├─.settings
+│              │      org.eclipse.core.resources.prefs
+│              │      org.eclipse.m2e.core.prefs
+│              │
+│              ├─src
+│              │  ├─main
+│              │  │  ├─ext-resources
+│              │  │  │  ├─rules
+│              │  │  │  ├─sangbox
+│              │  │  │  │  └─myfirstjob_0_1
+│              │  │  │  │      └─contexts
+│              │  │  │  └─sqltemplates
+│              │  │  ├─items
+│              │  │  ├─java
+│              │  │  │  ├─internal
+│              │  │  │  └─sangbox
+│              │  │  │      └─myfirstjob_0_1
+│              │  │  │              myfirstJob.java
+│              │  │  │
+│              │  │  └─resources
+│              │  └─test
+│              │      ├─java
+│              │      └─resources
+│              ├─target
+│              │  ├─classes
+│              │  └─test-classes
+│              └─tests
 ├─process
+│      myfirstJob_0.1.item
+│      myfirstJob_0.1.properties
+│      myfirstJob_0.1.screenshot
+│
 ├─sqlPatterns
 │  ├─Generic
 │  │  ├─system
